@@ -1,0 +1,25 @@
+.login {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    margin: 100px;
+}
+
+.login > button {
+    width: 200px;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    margin: 20px;
+}
+
+.login > button:hover {
+    background-color: #1877f2;
+}

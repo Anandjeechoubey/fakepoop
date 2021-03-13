@@ -1,0 +1,19 @@
+.lsRow {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.lsRow:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.lsRow > h4 {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.lsRow > .MuiSvgIcon-root {
+    color: #1877f2;
+}

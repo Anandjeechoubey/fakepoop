@@ -1,0 +1,22 @@
+.lsbar {
+    padding: 25px 15px;
+    max-width: 400px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lsbar__info {
+    display: flex;
+    align-items: center;
+}
+
+.lsbar__info > h4 {
+    padding-left: 10px;
+}
+
+.lsbar > hr {
+    margin: 10px;
+    color: gray;
+}
