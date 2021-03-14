@@ -2,11 +2,11 @@ import React from 'react'
 import { Avatar, IconButton } from '@material-ui/core'
 import './LeftSideBar.css'
 import LeftSideRow from '../LeftSideRow/';
-import { LocalHospital, EmojiFlags, People, Chat, Storefront, VideoLibrary } from "@material-ui/icons";
+import { LocalHospital, EmojiFlags, People, Chat, Storefront, VideoLibrary, BurstModeOutlined, BurstMode, DevicesOther, PeopleOutlined } from "@material-ui/icons";
 import Holt from '../../images/holt.jpg'
 
 function LeftSideBar() {
-    const username = 'Anand';
+    const username = 'Holt';
 
     return (
         <div className='lsbar'>
@@ -23,16 +23,16 @@ function LeftSideBar() {
                 <LeftSideRow Icon={VideoLibrary} title='Videos'/>
 
                 <hr/>
-
-                <LeftSideRow Icon={LocalHospital} title='Design Studio'/>
-                <LeftSideRow Icon={EmojiFlags} title='IITR Memes'/>
-                <LeftSideRow Icon={People} title='Indian Institute of Memology - Pawry'/>
-                <LeftSideRow Icon={Chat} title='Indian Institute of Memology - Dank'/>
+                <h3>Your shortcuts</h3>
+                <LeftSideRow Icon={DevicesOther} title='Design Studio'/>
+                <LeftSideRow Icon={PeopleOutlined} title='IITR Memes'/>
+                <LeftSideRow Icon={BurstModeOutlined} title='Indian Institute of Memology - Pawry'/>
+                <LeftSideRow Icon={BurstMode} title='Indian Institute of Memology - Dank'/>
             </div>
             
-            <div>
-                <p>Privacy Terms Advertising Ad Choices</p>
-                <p>Cookies More Facebook@2021</p>
+            <div className='footer'>
+                <span>Privacy</span> <span>Terms</span> <span>Advertising</span> <span>Ad Choices</span>
+                <br/><span>Cookies</span> <span>More</span> <span>Facebook@2021</span>
             </div>
             
         </div>
