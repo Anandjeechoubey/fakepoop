@@ -1,7 +1,8 @@
 .stories {
-    width: 720px;
     display: flex;
     justify-content: space-evenly;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .story {

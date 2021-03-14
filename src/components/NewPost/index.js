@@ -26,6 +26,7 @@ function NewPost() {
                 </form>
                 
             </div>
+            <hr/>
             <div className='new-post__bottom'>
                 <div className='options'><Videocam style={{color:'red'}} /> <p>Live Video</p> </div>
                 <div className='options'><PhotoLibrary style={{color:'green'}} /> <p>Photo/Video</p></div>

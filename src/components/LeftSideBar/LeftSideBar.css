@@ -7,6 +7,11 @@
     justify-content: space-between;
 }
 
+.lsbar > div > h3 {
+    margin: 15px 10px;
+    color: #65676b;
+}
+
 .lsbar__info {
     display: flex;
     align-items: center;
@@ -19,4 +24,13 @@
 .lsbar > hr {
     margin: 10px;
     color: gray;
+}
+
+.footer > span {
+    color: #65676b;
+    font-size: small;
+}
+
+.footer > span:hover {
+    text-decoration: underline;
 }
